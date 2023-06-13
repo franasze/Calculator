@@ -1,9 +1,12 @@
 
 .calculator {
-  background-color: #f8f8f8;
+  background-color: #f8f8f0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin: 50px auto;
   width: 267px;
+  border: 10px solid rgba(33, 68, 72, 0.59);
+  border-style: ridge;
+
 
 }
 
@@ -15,12 +18,11 @@
 }
 
 .calculator button {
-  /*border: 1px solid #333;*/
+
 
   border: 2px solid rgba(33, 68, 72, 0.59);
-
   border-radius: 10%;
-  background-color: #f2f2f2;
+  background-color: #f2f2d7;
   color: #333;
   font-size: 24px;
   cursor: pointer;
